@@ -1,8 +1,8 @@
 {
   "Name": "SpouseKeyMod",
   "Author": "oatgh",
-  "Version": "1.0.0",
-  "Description": "D� uma chave da casa do parceiro quando voc� come�a a namorar/casar.",
+  "Version": "0.5.0",
+  "Description": "Give a key for player who player get bff(8 rated friendship) keys of friend house",
   "UniqueID": "oatgh.UnlockBffHousesDoor",
   "EntryDll": "UnlockBffHousesDoor.dll",
   "MinimumApiVersion": "4.3.2"

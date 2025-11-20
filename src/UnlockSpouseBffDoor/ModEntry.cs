@@ -13,6 +13,11 @@ namespace UnlockBffHousesDoor
   internal sealed class ModEntry : Mod
   {
     private List<EventsManipulator> _eventsManipulators;
+    public ModEntry()
+    {
+       _eventsManipulators = new List<EventsManipulator>();
+    }
+
     public override void Entry(IModHelper helper)
     {
       SetupEvents(helper);
@@ -28,13 +33,13 @@ namespace UnlockBffHousesDoor
     private void SetupEvents(IModHelper helper)
     {
       Assembly assembly = Assembly.GetExecutingAssembly();
-      List<Type> typesOfEventsManipulators =  assembly.GetTypes().Where(t => typeof(EventsManipulator).IsAssignableFrom(t) && !t.IsAbstract).ToList();
+      List<Type> typesOfEventsManipulators = assembly.GetTypes().Where(t => typeof(EventsManipulator).IsAssignableFrom(t) && !t.IsAbstract).ToList();
       foreach (Type typeOfEventsManipulator in typesOfEventsManipulators)
       {
         EventsManipulator? instance = Activator.CreateInstance(typeOfEventsManipulator, helper) as EventsManipulator;
         if (instance != null) _eventsManipulators.Add(instance);
       }
-      
+
     }
   }
 }
