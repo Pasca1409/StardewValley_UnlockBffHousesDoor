@@ -21,7 +21,7 @@ namespace UnlockBffHousesDoor
 
     private void SetupHarmonyPatches()
     {
-      HarmonyLib.Harmony harmony = new HarmonyLib.Harmony(Utils.ModUniqueId);
+      HarmonyLib.Harmony harmony = new HarmonyLib.Harmony(Utils.Utils.ModUniqueId);
       harmony.PatchAll();
     }
 

@@ -8,7 +8,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UnlockBffHousesDoor.Model;
+using UnlockBffHousesDoor.Utils;
+
 
 namespace UnlockBffHousesDoor.Harmony
 {
@@ -20,7 +21,7 @@ namespace UnlockBffHousesDoor.Harmony
     public static bool lockedDoorWarp(GameLocation __instance, Point tile, string locationName, int openTime, int closeTime, string npcName, int minFriendship)
     {
 
-      if (Game1.player.modData.TryGetValue($"{Utils.UserKeyGivedFromSaveData}", out string? givedKeysString))
+      if (Game1.player.modData.TryGetValue($"{Utils.Utils.UserKeyGivedFromSaveData}", out string? givedKeysString))
       {
         StringfiedList givedKeys = new StringfiedList(",", givedKeysString);
 

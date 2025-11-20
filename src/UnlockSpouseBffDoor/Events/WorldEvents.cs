@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UnlockBffHousesDoor.Model;
+using UnlockBffHousesDoor.Utils;
 
 namespace UnlockBffHousesDoor.Events
 {
@@ -34,7 +34,7 @@ namespace UnlockBffHousesDoor.Events
       foreach (Farmer farmer in farmers)
       {
         string farmerName = farmer.displayName;
-        string keyWorldSaveKeyNamePrefix = $"{Utils.UserKeyGivedFromSaveData}";
+        string keyWorldSaveKeyNamePrefix = $"{Utils.Utils.UserKeyGivedFromSaveData}";
         NetStringDictionary<Friendship, Netcode.NetRef<Friendship>> friendships = farmer.friendshipData;
         StringfiedList givedKeys = new StringfiedList(",", farmer.modData[keyWorldSaveKeyNamePrefix] ?? "");
         foreach (KeyValuePair<string, Friendship> friendship in friendships.Pairs)
