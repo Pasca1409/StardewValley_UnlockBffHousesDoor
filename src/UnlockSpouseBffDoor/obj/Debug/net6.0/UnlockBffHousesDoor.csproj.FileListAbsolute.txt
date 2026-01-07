@@ -1,0 +1,9 @@
+C:\Users\Pasca1409\Source\Repos\UnlockBffHouses.Core\src\UnlockSpouseBffDoor\obj\Debug\net6.0\UnlockBffHousesDoor.csproj.AssemblyReference.cache
+C:\Users\Pasca1409\Source\Repos\UnlockBffHouses.Core\src\UnlockSpouseBffDoor\obj\Debug\net6.0\UnlockBffHousesDoor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pasca1409\Source\Repos\UnlockBffHouses.Core\src\UnlockSpouseBffDoor\obj\Debug\net6.0\UnlockBffHousesDoor.AssemblyInfoInputs.cache
+C:\Users\Pasca1409\Source\Repos\UnlockBffHouses.Core\src\UnlockSpouseBffDoor\obj\Debug\net6.0\UnlockBffHousesDoor.AssemblyInfo.cs
+C:\Users\Pasca1409\Source\Repos\UnlockBffHouses.Core\src\UnlockSpouseBffDoor\obj\Debug\net6.0\UnlockBffHousesDoor.csproj.CoreCompileInputs.cache
+C:\Users\Pasca1409\Source\Repos\UnlockBffHouses.Core\src\UnlockSpouseBffDoor\obj\Debug\net6.0\UnlockBffHousesDoor.sourcelink.json
+C:\Users\Pasca1409\Source\Repos\UnlockBffHouses.Core\src\UnlockSpouseBffDoor\bin\Debug\net6.0\UnlockBffHousesDoor.deps.json
+C:\Users\Pasca1409\Source\Repos\UnlockBffHouses.Core\src\UnlockSpouseBffDoor\bin\Debug\net6.0\UnlockBffHousesDoor.dll
+C:\Users\Pasca1409\Source\Repos\UnlockBffHouses.Core\src\UnlockSpouseBffDoor\obj\Debug\net6.0\UnlockBffHousesDoor.dll

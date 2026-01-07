@@ -1,9 +1,10 @@
 {
-  "Name": "SpouseKeyMod",
-  "Author": "oatgh",
-  "Version": "0.5.0",
-  "Description": "Give a key for player who player get bff(8 rated friendship) keys of friend house",
-  "UniqueID": "oatgh.UnlockBffHousesDoor",
-  "EntryDll": "UnlockBffHousesDoor.dll",
-  "MinimumApiVersion": "4.3.2"
+  "Name": "Unlock BFF Houses Core",
+  "Author": "Pasca1409",
+  "Version": "1.0.0",
+  "Description": "Unlocks NPC houses dynamically if you have the required heart amount.",
+  "UniqueID": "Pasca1409.UnlockBffHouses.Core",
+  "EntryDll": "UnlockBffHouses.Core.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
 }
